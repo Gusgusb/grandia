@@ -1705,32 +1705,7 @@
         };
     </script>
 
-    <!-- Portada parallax -->
-    <script>
-        if (device == 'mobile' || $(window).width() < 768) {
-
-            // Aceptar webp?
-            if (support_format_webp()) {
-                var imageParallax = './img/fedetere01.webp';
-            } else {
-                var imageParallax = './img/fedetere01.jpg';
-            }
-
-        } else {
-
-            // Aceptar webp - Imagen portada
-            if (support_format_webp()) {
-                var imageParallax = './img/fede&teremasazul31.webp';
-            } else {
-                var imageParallax = './img/fede&teremasazul31.jpg';
-            }
-
-        }
-
-        $('.portada').parallax({
-            imageSrc: imageParallax
-        });
-    </script>
+   
 
     <div style="position: absolute; left: 0px; top: -2px; height: 1px; overflow: hidden; visibility: hidden; width: 1px;">
         <span style="position: absolute; font-size: 300px; width: auto; height: auto; margin: 0px; padding: 0px; font-family: Roboto, Arial, sans-serif;">
